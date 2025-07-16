@@ -34,7 +34,7 @@ title: Modules
 ## Module 7: How to run code reproducibly
 - Creating [log files](https://larsvilhuber.github.io/self-checking-reproducibility/presentation/#/creating-log-files)
 - [Environments](https://larsvilhuber.github.io/self-checking-reproducibility/presentation/#/environments)
-- [How to install Stata packages](https://larsvilhuber.github.io/self-checking-reproducibility/12-environments-in-stata.html) in Stata
+- [Environments Textbook:](https://larsvilhuber.github.io/self-checking-reproducibility/12-environments-in-stata.html) in Stata
 - Survey topic A [(survey)](https://cornell.yul1.qualtrics.com/jfe/form/SV_cNkhKL69K2Ob7o2)
 - When data cleaning is [critical](https://github.com/labordynamicsinstitute/very-imperfect-example-lesson/blob/main/programs/01_dataclean.do#L40) (link doesn't work)
 
@@ -44,10 +44,7 @@ title: Modules
 
 ## Module 9: The data lifecycle: preserving raw data
 - Differences between sharing, publishing, and preserving
-- Data licensing
-- [Data preservation](https://larsvilhuber.github.io/summer-school-qicss-2025/presentation/day2.html#/what-is-preservation)
-- [Data publication](https://larsvilhuber.github.io/summer-school-qicss-2025/presentation/day2.html#/what-is-publication)
-- Using sensitive data
+- [Data preservation and publication](https://larsvilhuber.github.io/summer-school-qicss-2025/presentation/day2.html#/what-is-preservation)
 - Increased transparency and reproducibility in economics [video:](https://www.youtube.com/watch?v=pj-y3dLDOEA)
 - [Reproducibility and ethics](https://labordynamicsinstitute.github.io/crress/#session-2)
 - FAIR data principles
