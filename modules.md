@@ -49,6 +49,7 @@ title: Modules
 - [Reproducibility and ethics](https://labordynamicsinstitute.github.io/crress/#session-2)
 - FAIR data principles
 - [Data sharing and archiving for reproducibility](https://labordynamicsinstitute.github.io/tutorial-data-sharing-archiving-2021/#/)
+- [Data sharing and archiving for reproducibility 2](https://labordynamicsinstitute.github.io/tutorial-data-sharing-archiving-2021/index2.html#/)
 - Options for preservation
   - Getting started in [Zenodo](https://sandbox.zenodo.org/)
   - [Dataverses](https://borealisdata.ca/)
