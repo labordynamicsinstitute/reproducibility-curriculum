@@ -15,3 +15,4 @@ data
 .config
 .local
 **/.ipynb_checkpoints/**
+_site

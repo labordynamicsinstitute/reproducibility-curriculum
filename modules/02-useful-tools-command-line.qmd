@@ -1,0 +1,11 @@
+---
+title: "Module 2: Useful tools: Why you should learn (and love) the command line"
+author: Lars Vilhuber
+date: "2025-09-15"
+description: ""
+---
+
+- Bash scripting
+- Git versioning (or any versioning)
+- [Shell for novices](https://swcarpentry.github.io/shell-novice/)
+- [Git for novices](https://swcarpentry.github.io/git-novice/)

@@ -61,68 +61,19 @@ jobs:
     #   with:
     #     path: ./presentation
       run: |
-        echo "xxxxxxxxxx${QUALTRICS_BASE_URL}xxxxxxxxxx"
-        test -z "${QUALTRICS_BASE_URL}" && echo "QUALTRICS_BASE_URL is not set" && exit 1
-        quarto render  index.qmd --output-dir _html
-    - name: Render Presentation PDF
-      env:
-        QUARTO_PRINT_STACK: true
-    #   uses: quarto-dev/quarto-actions/render@v2
-    #   with:
-    #     path: ./presentation
-      run: |
-        bash presentation/render_presentation.sh
+        quarto render  
 
     - name: Upload landing page Artifact
       id: artifact-upload-step2
       uses: actions/upload-artifact@v4
       with:
           name: artifact-html
-          path: _html
+          path: _site
           retention-days: 1
-    - name: Upload data artifact
-      id: artifact-upload-data
-      if: ${{ github.event.inputs.create_deposit == 'true' }}
-      uses: actions/upload-artifact@v4
-      with:
-          name: artifact-data
-          path: data
-          retention-days: 1
-
-          # now make a PDF out of it
-  create-pdf:
-    needs: compile-quarto
-    runs-on: ubuntu-latest
-    steps:
-    - name: Download quarto artifact
-      uses: actions/download-artifact@v4
-      with:
-        name: artifact-html
-        path: _html
-    - name: Check permissions
-      run: |
-        ls -la _html
-        chmod -R a+rwX _html
-        ls -la _html
-        
-    - name: Create PDF
-      uses: addnab/docker-run-action@v3
-      with:
-        image: astefanutti/decktape
-        options: -v ${{ github.workspace }}/_html/presentation:/slides 
-        run: |
-          node /decktape/decktape.js --chrome-path /usr/bin/chromium-browser --chrome-arg=--no-sandbox --chrome-arg=--disable-gpu presentation.html presentation.pdf
-
-    - name: Upload Artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: artifact-presentation-pdf
-        path: _html/presentation/presentation.pdf
   deploy-all:
     runs-on: ubuntu-22.04
     needs: 
       - compile-quarto
-      - create-pdf
     if: ${{ github.event.inputs.refresh_website == 'true' || github.event_name == 'push' }}
     steps:
     # Pull down both artifacts
@@ -132,17 +83,11 @@ jobs:
       with:
             path: .
             pattern: artifact-html
-    - name: Download Pres PDF
-      uses: actions/download-artifact@v4
-      with:
-            path: .
-            pattern: artifact-presentation-pdf
     # Adjust this to reflect what you are posting
     - name: Move stuff
       run: |
           ls -lR
           mv artifact-html website
-          mv artifact-presentation-pdf/presentation.pdf website/presentation/presentation.pdf
     # Prepare the GitHub Pages action
     - name: prepare GitHub Pages action
       uses: actions/upload-pages-artifact@v3.0.1    

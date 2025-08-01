@@ -1,0 +1,15 @@
+---
+title: "Module 11: High-performance computing and why you should care about it"
+author: Lars Vilhuber
+description: "You run your code on your laptop, and it crashes. Use high-performance computing! We disuss when to use it, what the benefits and costs are, and where to use it. "
+date: "2025-11-10"
+---
+
+- What is HPC
+- When to invest in it
+- Where to get it (BioHPC intro)
+- What to consider
+- Try it out (prior lessons exist)
+  - Embarassingly parallel Stata code
+  - Easy parallel Julia code
+  - High-performance MPI code

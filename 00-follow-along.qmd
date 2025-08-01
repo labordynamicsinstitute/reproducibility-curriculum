@@ -1,0 +1,26 @@
+---
+title: "Follow along"
+author: Lars Vilhuber
+description: "Where to find all the materials."
+date: "2025-09-01"
+image: "images/qrcode.png"
+editor_options: 
+  chunk_output_type: console
+---
+
+
+
+```{r qrcode}
+#| echo: false
+#| include: false
+
+source(here::here("config.R"))
+
+```
+
+You can find this document at <`r WEBSITE_URL`>. If you are viewing this on somebody else's screen, scan the QR code:
+
+[![](images/qrcode.png)](`r WEBSITE_URL`)
+
+- This document's source: <`r REPOSITORY_URL`>
+- Licensed under [![CC BY-NC 4.0](/images/cc-by-nc-80x15.png)](https://creativecommons.org/licenses/by-nc/4.0/)

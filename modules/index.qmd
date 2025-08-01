@@ -1,0 +1,19 @@
+---
+title: "Sessions"
+author: 
+  - "Lars Vilhuber"
+  - "Laurel Krovetz"
+date: "2025-09-01"
+listing: 
+  sort: "date"
+  type: default
+  sort-ui: [title, date]
+---
+
+
+```{r config,include=FALSE}
+source(here::here("config.R"))
+```
+
+
+

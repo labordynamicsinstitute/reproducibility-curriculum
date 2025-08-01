@@ -1,0 +1,9 @@
+---
+title: "Module 8: API and AI"
+author: Lars Vilhuber
+description: "AI is infusing a lot of what we do. This will discuss how you can produce research that uses AI and APIs, while still being reproducible."
+date: "2025-10-20"
+---
+
+- What to do when data comes from an [API](https://github.com/labordynamicsinstitute/alfred_example/)
+- What to do when part of the process uses [AI or LLMs](https://larsvilhuber.github.io/reproducibility-for-llm/presentation/#/title-slide)

@@ -1,0 +1,13 @@
+---
+title: "Module 10: Writing articles that combine text and code"
+author: Lars Vilhuber
+description: "To more efficiently combine processing of data and the writing up of results, a few methods exist. Word is not one of them. We discuss the pros and cons of various methods."
+date: "2025-11-03"
+---
+
+- Using arbitrary code, LaTex, Git, and Overleaf
+- Using integrated notebooks and what to do when your journal doesn't like Markdown (which is all of them) (Quarto, Jupyter notebooks with Stata)
+- Method taught, vs. Lars' preferred method
+- Examples with caveats - none of these are particularly focused on reproducible notebooks and how to integrate with articles that need to be submitted.
+  - [Jupyter Notebooks](https://datacarpentry.github.io/python-ecology-lesson/jupyter_notebooks.html) (but focuses on Python)
+  - [R Markdown](https://rmarkdown.rstudio.com/lesson-1.html)

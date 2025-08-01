@@ -1,3 +1,30 @@
+project:
+  type: website
+  render:
+    - "setup.qmd"
+    - "*.qmd"
+    - "!presentation/"
+
+website:
+  title: "Reproducibility Curriculum"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - text: "Home"
+        href: index.qmd
+      - text: "Follow along"
+        href: 00-follow-along.qmd
+      - auto: modules
+      - acknowlegment.qmd
+      - about.md
+      
+      
 format: 
   html:
     scrollable: true

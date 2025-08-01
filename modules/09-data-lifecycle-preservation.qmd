@@ -1,0 +1,17 @@
+---
+title: "Module 9: The data lifecycle: preserving raw data"
+author: Lars Vilhuber
+description: "If you create data, or have data that needs to be preserved, what can you do? We start by discussing the distinction between sharing and preserving data, and then look at options that you can embed within your research workflow."
+date: "2025-10-27"
+---
+
+- Differences between sharing, publishing, and preserving
+- [Data preservation and publication](https://larsvilhuber.github.io/summer-school-qicss-2025/presentation/day2.html#/what-is-preservation)
+- Increased transparency and reproducibility in economics [video:](https://www.youtube.com/watch?v=pj-y3dLDOEA)
+- [Reproducibility and ethics](https://labordynamicsinstitute.github.io/crress/#session-2)
+- FAIR data principles
+- [Data sharing and archiving for reproducibility](https://labordynamicsinstitute.github.io/tutorial-data-sharing-archiving-2021/#/)
+- [Data sharing and archiving for reproducibility 2](https://labordynamicsinstitute.github.io/tutorial-data-sharing-archiving-2021/index2.html#/)
+- Options for preservation
+  - Getting started in [Zenodo](https://sandbox.zenodo.org/)
+  - [Dataverses](https://borealisdata.ca/)

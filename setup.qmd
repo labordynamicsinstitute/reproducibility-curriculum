@@ -1,0 +1,12 @@
+---
+---
+
+```{r,include=FALSE,echo=FALSE}
+source(here::here("config.R"))
+code <- qr_code(WEBSITE_URL)
+#plot(code)
+# save as qrcode.png
+png(filename = here::here("images","qrcode.png"),  width = 400, height = 400, units = "px")
+plot(code)
+dev.off()
+```

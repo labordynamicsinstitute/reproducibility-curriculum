@@ -1,0 +1,12 @@
+---
+title: "Module 7: How to run code reproducibly"
+author: Lars Vilhuber
+description: "This is a recap of the Day N-1 reproducibility module, but with a focus on how to run code reproducibly. We discuss how to create log files, use environments, and the importance of data cleaning."
+date: "2025-10-13"
+---
+
+- Creating [log files](https://larsvilhuber.github.io/self-checking-reproducibility/presentation/#/creating-log-files)
+- [Environments](https://larsvilhuber.github.io/self-checking-reproducibility/presentation/#/environments)
+- [Environments Textbook:](https://larsvilhuber.github.io/self-checking-reproducibility/12-environments-in-stata.html) in Stata
+- Survey topic A [(survey)](https://cornell.yul1.qualtrics.com/jfe/form/SV_cNkhKL69K2Ob7o2)
+- When data cleaning is [critical](https://github.com/labordynamicsinstitute/very-imperfect-example-lesson/blob/main/programs/01_dataclean.do#L40) (link doesn't work)
