@@ -14,3 +14,4 @@ data
 .cache
 .config
 .local
+**/.ipynb_checkpoints/**
