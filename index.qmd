@@ -3,7 +3,8 @@ title: "Reproducibility in research – Ensuring the transparency and credibilit
 author: 
   - "Lars Vilhuber"
   - "Michael Stepner"
-date: May 26 2025
+  - "Laurel Krovetz"
+date: 2025
 ---
 
 ```{r config,include=FALSE}
@@ -86,97 +87,7 @@ plot(code)
 
 ```
 
-
-## Day 1
-
-
-```{r, child=c(here::here('toc.md'))}	
-```
-
-
-
-## Day 2
-
-
-```{r, child=c(here::here('toc2.md'))}	
-```
-
-
-
-## Survey for Day 2
-
-For part of Day 2, we have a choice:
-
-- [Reproducibility when some data are confidential](https://labordynamicsinstitute.github.io/reproducibility-confidential/) 
-- [Preserving raw survey data](presentation/day2.html#preserving-raw-survey-data)
-- [Advanced self-checking of reproducibility](https://larsvilhuber.github.io/self-checking-reproducibility/presentation/)
-
-To identify what we should be speaking about on Day 2, please fill out this other survey:
-
-<`r file.path(QUALTRICS_FULL_URL,QUALTRICS_DAY2)`>
-
-### Results
-
-```{r downloaddata2,include=FALSE}
-# download data to local location
-
-# if the Qualtrics API key is not set, we can't fetch the data
-if (Sys.getenv("QUALTRICS_API_KEY") != "") {
-  data2.raw <- fetch_survey(surveyID = QUALTRICS_DAY2, verbose = TRUE) 
-  data2 <- data2.raw |>
-          filter(Status != "Survey Preview") |>
-          filter(Consent == "I agree that my data will be used in the manner described.") |>
-          filter(StartDate > QUALTRICS_DAY2_STIME & EndDate < QUALTRICS_DAY2_ETIME) |>
-    # renaming variables
-    select(StartDate,EndDate,Status,Finished,RecordedDate,ResponseId,Consent,Preferred_topic,Degree,JEL_primary,
-          starts_with("JEL_secondary"),starts_with("Versioning_"))
-} else {
-  data2 <- data.frame()
-}
-
-```
-
-```{r create_table2, results='asis', include=TRUE,echo=FALSE,message=FALSE}
-
-if ( nrow(data2) >0 ) {
-data2 |>
-  select(Preferred_topic) |>
-  group_by(Preferred_topic) |>
-  summarise(Frequency=n()) |>
-  ungroup() |>
-  mutate(Percent = round(Frequency/nrow(data2)*100,2)) -> data2.table
-
-data2.table |> kable()
-} else {
-  cat("No data yet. Check back later.")
-}
-```
-
-```{r preserve data, include=FALSE,echo=FALSE,message=FALSE}
-# Now save the data to a local file
-if (nrow(data2) > 0) {
-  write_csv(data2, here::here("data", "day2-survey.csv"))
-  saveRDS(data2, here::here("data", "day2-survey.rds"))
-} else {
-  # message("No data to save.")
-}
-```
-
-## Possible extra
-
-
-- Discussions on concerns about ethics in data dissemination (privacy, scraping, copyright, etc.)
-- [Reproducibility for LLM and AI](https://larsvilhuber.github.io/reproducibility-for-llm/presentation/)
-
-```{r, child=c(here::here('99-links.md'))}
-```
-
-## Map
-
-![UQAM Pavillon DS](https://plancampus.uqam.ca/fichiers/images/cartes_pavillons/DS.gif)
-
-
-
+```{r,child="modules.md"}
 
 :::
 
