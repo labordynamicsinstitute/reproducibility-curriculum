@@ -13,5 +13,10 @@ date: "2025"
 source(here::here("config.R"))
 ```
 
+This website is a collection of modules on reproducibility in economics, though probably more broadly applicable to the social sciences. It is the basis for a mix-and-match for instructors who wish to expand on the topic. The topics are  based on the experience of multiple data editors and instructors of reproducibility, and are often not part of traditional curricula. 
+
+## Target audience
+
+While the target audience  is typically graduate students, the material is accessible to undergraduate students, and could even be used in high school classes. Some programming experience is expected. 
 
 

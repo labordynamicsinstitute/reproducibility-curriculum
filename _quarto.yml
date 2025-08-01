@@ -31,5 +31,5 @@ format:
     margin: 0
     code-overflow: wrap
     reference-location: document
-    widescreen: true
+    widescreen: false
     center: true
