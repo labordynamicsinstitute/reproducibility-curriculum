@@ -21,14 +21,14 @@ website:
       - text: "Follow along"
         href: 00-follow-along.qmd
       - auto: modules
-      - acknowlegment.qmd
-      - about.md
+      - text: "Acknowledgements"
+        href: acknowlegment.qmd
       
       
 format: 
   html:
     scrollable: true
-    margin: 0
+    margin: 100
     code-overflow: wrap
     reference-location: document
     widescreen: false
