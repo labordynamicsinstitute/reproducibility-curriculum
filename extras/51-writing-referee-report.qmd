@@ -1,0 +1,47 @@
+---
+title: "Writing a referee report"
+author: 
+ - Levon Barseghyan
+ - Francesca Molinari
+ - Lars Vilhuber
+date: "2025-09-22"
+description: "Writing good referee reports is an important part of the academic work. But providing constructive and effective feedback is not easy. We go through some basic ways to help in the first pass on a referee report."
+categories: [econ7850]
+oecon7850: "3"
+---
+
+## High-level Points
+
+### Purpose of a Referee Report
+- Help the editor decide on publication.
+- Help authors improve their paper.
+
+### First Steps When Invited
+- Read the title and abstract to assess your expertise.
+- Respond to the editor promptly.
+- Disclose conflicts of interest or prior reviews immediately.
+- Ensure you can meet the deadline (request extension if needed, but always try to meet it).
+
+### Writing the Report
+- Be constructive and avoid incendiary language.
+- Provide a clear summary of the paper, including key insights and usefulness.
+- Give the editor and authors a sense of what a careful reader takes away.
+- Do not make a recommendation in the report itself; reserve that for the cover letter/editorial system.
+
+#### Main Comments
+- Address broad interest, innovation, and usefulness of findings.
+- Assess appropriateness and correctness of the approach.
+- Highlight non-negotiable shortcomings (e.g., data, assumptions, identification strategy).
+
+#### Smaller Comments
+- List items that are not deal-breakers but would improve the paper.
+- Respect the authors' writing style; your job is not to rewrite the paper.
+- Point out typos if you wish.
+
+#### Ethics 
+- Only suggest your own work if genuinely relevant.
+- Be constructive and polite.
+
+### Good Referee's Approach
+- Take a developmental approach: identify problems and suggest ways to repair them.
+- Aim to improve science and collective scholarship.

@@ -1,11 +1,13 @@
 ---
-title: "Module 4: Day N-1 reproducibility"
+title: "Day N-1 reproducibility"
 author: Lars Vilhuber
 date: "2025-09-29"
 description: "How do you check your project for reproducibility before you submit it? We discuss various strategies."
+oecon7850: "5"
+categories: [econ7850, predoc]
 ---
 
 - How to check your project for reproducibility
 - Computational empathy
-- [Checking reproducibility on day T](https://larsvilhuber.github.io/self-checking-reproducibility/presentation/#/title-slide)
+- [Checking reproducibility on day T](https://larsvilhuber.github.io/self-checking-reproducibility/presentation/)
 - [Link to online textbook](https://larsvilhuber.github.io/self-checking-reproducibility/)

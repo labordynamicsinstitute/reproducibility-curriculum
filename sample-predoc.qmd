@@ -1,0 +1,18 @@
+---
+title: "CIDER Predoc Sequence"
+author: 
+ - Lars Vilhuber
+ - Laurel Krovetz
+date: "2025-09-01"
+description: "TBD"
+listing:
+  contents: 
+    - "modules/*.qmd"
+    - "extras/*.qmd"
+  type: "table"
+  categories: true
+  sort: "opredoc"
+  include:
+    categories: "predoc"
+---
+

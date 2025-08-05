@@ -1,0 +1,57 @@
+---
+title: "Writing a grant proposal"
+author: 
+ - Levon Barseghyan
+ - Francesca Molinari
+ - Lars Vilhuber
+date: "2025-10-22"
+description: "Grants will likely be an important part of both academic and some non-academic careers. Students in their fourth year at Cornell must have written and submitted an
+external fellowship or grant proposal before their dissertation-year
+fellowship is awarded. This session goes through some of the ways to write successful grants."
+categories: [econ7850]
+oecon7850: "7"
+---
+
+Students in their fourth year at Cornell must have written and submitted an
+external fellowship or grant proposal before their dissertation-year
+fellowship is awarded.  The Graduate School maintains a [database of
+doctoral fellowships](https://gradschool.cornell.edu/financial-support/fellowships/
+external-fellowships/fellowship-resources-and-workshops/).
+
+
+This session goes through some of the ways to write successful grants.
+
+## Summary of Grant Proposal Advice
+
+### Key Steps and Structure
+
+1. **Identify the right funding agency or program** for your research. Tailor your proposal to the audience (private foundation, government agency, interdisciplinary, or economics-specific).
+2. **Proposal structure:**
+   - Introduction and Overview: What is your research about?
+   - Why does it matter?
+   - What is the state of the art in the field?
+   - How do you innovate?
+   - How does your innovation advance knowledge, society, or the funder's goals?
+   - Timeline and plan for respecting it
+   - How will success be assessed?
+
+### Criteria for Evaluation (NSF)
+
+- **Intellectual Merit:** Potential to advance knowledge.
+- **Broader Impacts:** Potential to benefit society and achieve desired outcomes.
+- Reviewers look for creative, original, or transformative concepts.
+
+### Evidence to Provide
+
+- Your expertise and qualifications
+- Adequate resources and infrastructure
+- Well-reasoned, organized, and sound rationale
+- Mechanism to assess success
+
+### Practical Advice
+
+- Applying is required for certain fellowships (e.g., Sage fellowship at Cornell).
+- A grant can provide additional resources for your research.
+- Start preparing your proposal early (after passing your A-exam) to get feedback from your committee.
+- Use writing resources offered by the Graduate School.
+- Proposal writing is an important career skill and an opportunity to distinguish yourself.

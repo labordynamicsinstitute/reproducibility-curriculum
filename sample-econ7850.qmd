@@ -1,0 +1,22 @@
+---
+title: "Economics 7850: Third Year Research Seminar"
+author: 
+ - Levon Barseghyan
+ - Francesca Molinari
+ - Lars Vilhuber
+date: "2025-09-01"
+description: "Econ 7850  consists of two parts. In Part 1, we will discuss several topics that are
+essential for successfully completing your research papers as well as applying for grants, refereeing for journals etc. Part 2 are your presentations. In Part 3, after presentations are offered, you will be asked to write a referee report on one of the papers written
+by your peers. You will also be asked to prepare a draft replication package for your own paper."
+listing:
+  contents: 
+    - "modules/*.qmd"
+    - "extras/*.qmd"
+  type: "table"
+  categories: true
+  sort: "oecon7850"
+  include:
+    categories: "econ7850"
+---
+
+ECON7850 is a compulsory course for all third-year PhD students in Economics at Cornell that extends throughout the third year. It consists of some introductory lectures, followed by student presentations of an initial topic, as well as a second presentation that improves on the first near the end of the second semester, as part of a Third Year Conference.

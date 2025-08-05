@@ -1,8 +1,10 @@
 ---
-title: "Module 2: Useful tools: Why you should learn (and love) the command line"
+title: "Useful tools: Why you should learn (and love) the command line"
 author: Lars Vilhuber
 date: "2025-09-15"
 description: ""
+oecon7850: "2"
+categories: [econ7850, predoc]
 ---
 
 - Bash scripting

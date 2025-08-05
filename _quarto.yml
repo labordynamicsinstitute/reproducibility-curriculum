@@ -21,8 +21,15 @@ website:
       - text: "Follow along"
         href: 00-follow-along.qmd
       - auto: modules
+      - auto: extras
+      - section: "Sample syllabi"
+        contents:
+        - text: "Econ 7850 Cornell"
+          href: sample-econ7850.qmd
+        - text: "Predoc sequence"
+          href: sample-predoc.qmd
       - text: "Acknowledgements"
-        href: acknowlegment.qmd
+        href: acknowledgment.qmd
       
       
 format: 

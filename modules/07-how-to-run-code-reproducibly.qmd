@@ -1,8 +1,9 @@
 ---
-title: "Module 7: How to run code reproducibly"
+title: "How to run code reproducibly"
 author: Lars Vilhuber
 description: "This is a recap of the Day N-1 reproducibility module, but with a focus on how to run code reproducibly. We discuss how to create log files, use environments, and the importance of data cleaning."
 date: "2025-10-13"
+categories: [predoc]
 ---
 
 - Creating [log files](https://larsvilhuber.github.io/self-checking-reproducibility/presentation/#/creating-log-files)

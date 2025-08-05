@@ -1,0 +1,13 @@
+---
+title: "Reproducibility, transparency, and data ethics: How and when to share data, and when not to"
+author: Lars Vilhuber
+description: "How do you create transparency and credibility when you cannot share the data you use? We discuss strategies both for data collection, data use, and data sharing. This is relevant if you collect your own data, or if you use confidential data."
+date: "2025-11-10"
+categories: [econ7850, predoc]
+oecon7850: "8"
+---
+
+
+- [Reproducibility when data are confidential](https://labordynamicsinstitute.github.io/reproducibility-confidential/#/title-slide)
+- Textbook on reproducibility when data are confidential (in progress)
+

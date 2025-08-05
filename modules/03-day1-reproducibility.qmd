@@ -1,8 +1,10 @@
 ---
-title: "Module 3: Day 1 reproducibility"
+title: "Day 1 reproducibility"
 author: Lars Vilhuber
 date: "2025-09-22"
 description: "We discuss how to set yourself up for reproducibility from the very first day of your project."
+oecon7850: "1"
+categories: [econ7850, predoc]
 ---
 
 - Setting yourself up for reproducibility: [Reproducibility from day 1](https://larsvilhuber.github.io/day1-tutorial/#/title-slide)

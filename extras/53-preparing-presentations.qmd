@@ -1,0 +1,58 @@
+---
+title: "Guide for good presentations"
+author: 
+ - Levon Barseghyan
+ - Francesca Molinari
+ - Lars Vilhuber
+date: "2025-08-22"
+description: "You will be presenting your work to your peers and faculty. We go through some of the ways to make your presentation effective and engaging."
+categories: [econ7850]
+oecon7850: "0"
+---
+
+> **Do not forget** to invite at least two faculty members to your presentation
+
+## Duration
+
+Target 30-35 min; leaving 15 mins for questions and feedback.
+
+## Papers and Slides
+
+- For the underlying papers, send the newest version to the instructors, and ideally to your peers. 
+- Send slides to the instructors beforehand.
+
+## Remote/hybrid attendance
+
+Students are required to attend every session unless you have an academic, teaching, or
+health related conflict. All students should attend in person, if possible. Deviations should be authorized by faculty. 
+
+> By attending each other presentations you show mutual respect and support for
+your peers. 
+
+For any talk you are missing, you should read the paper and give the presenter written feedback.
+
+Participating faculty (your supervisors) can attend in person or remotely. If remotely, it is suggested that you bring your own laptop, and use Zoom from there. Other options are available in the seminar room.
+
+## Presentation Tips
+
+**Time management**: While it is important to show some details of what you have done - not
+all details can be shown or should be shown. The **number of slides** for 30-35 min should be no more 30 (ideally about 20). Ideally, especially for the broad audiences, you only want to highlight details that either
+
+1. are crucial because they differentiate your work from the work of others,
+2. are seemingly counter-intuitive and can raise doubts (so you address them head on),
+3. are about robustness in some important ways.
+
+The purpose of **equations** is not to assert the command of the topic. It is to convey an *important idea* in your project and keep the audience's focus on it. As such, if you can, try to avoid stand-alone auxiliary formulas etc. They take time and make it hard to follow the presentation.
+
+**Tables** should be readable. Only show columns that you will be talking about.
+
+The **main results** must be previewed. There is a fine line between a great **introduction**/motivation and a long one that risks losing audience’s interest. Remember, you want the audience to remember what you have done, **then** why it is important and **only then** how in detail you have done it. 
+
+To get you started:
+<https://scholar.harvard.edu/files/shapiro/files/applied_micro_slides.pdf>.
+
+Finally, the prior art, or what we typically call **existing literature**. Especially in short presentations only talk about papers that
+
+1. You are directly building on.
+2. Are direct competitors, and hence the need to differentiate your work from it, or
+3. Your results come in contradiction with those derived in them.
