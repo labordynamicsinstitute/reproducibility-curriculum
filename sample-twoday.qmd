@@ -1,0 +1,25 @@
+---
+title: "A Two-Day Reproducibility Curriculum"
+author: 
+ - Lars Vilhuber
+ - Marie Connolly
+ - Michael Stepner
+date: "2025-05-26"
+description: "TBD"
+listing:
+  contents: 
+    - "modules/*.qmd"
+    - "extras/*.qmd"
+  type: "grid"
+  fields: [image, title]
+  categories: false
+  sort: "title"
+  include:
+    categories: "qicss2025"
+---
+
+This intensive training explores the fundamental principles of reproducibility, a pillar of open science that ensures the transparency and credibility of scientific research. You'll discover best practices to make your work reproducible, from data management to code documentation, version control and results publication.
+
+**Prerequisites**: Previous knowledge of at least one statistical software package (STATA, R, Python, SPSS or SAS). Participants should bring their laptops with statistical software installed.
+
+> This was taught by Michael Stepner and Lars Vilhuber on May 26/27 2025 in Montreal, Canada. For the full site, see <https://larsvilhuber.github.io/summer-school-qicss-2025/>.

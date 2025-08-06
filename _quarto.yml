@@ -28,6 +28,7 @@ website:
           href: sample-econ7850.qmd
         - text: "Predoc sequence"
           href: sample-predoc.qmd
+        - href: sample-twoday.qmd
       - text: "Acknowledgements"
         href: acknowledgment.qmd
       

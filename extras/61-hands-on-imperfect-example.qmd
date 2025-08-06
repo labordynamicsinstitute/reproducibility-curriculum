@@ -1,0 +1,14 @@
+---
+title: "Hands-on: A very imperfect example"
+author: 
+ - Lars Vilhuber
+ - Marie Connolly
+ - Michael Stepner
+date: "2025-08-22"
+description: "We will walk through a simple example to illustrate various pitfalls."
+categories: [qicss2025]
+oecon7850: "0"
+image: "images/ai-imperfect.jpeg"
+---
+
+- [Very Imperfect Example](https://larsvilhuber.github.io/summer-school-qicss-2025/presentation/01-very-imperfect-example.html)
