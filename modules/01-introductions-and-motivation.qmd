@@ -2,7 +2,8 @@
 title: "Introductions and motivation"
 author: Lars Vilhuber
 description: "We introduce the various modules, talk about best practices, describe what we mean by replication package, and illustrate practically using a toy example."
-date: "2025-09-08"
+date-predoc: "2025-08-12"
+date-econ7850: "not sure"
 categories: [predoc]
 opredoc: 1
 ---

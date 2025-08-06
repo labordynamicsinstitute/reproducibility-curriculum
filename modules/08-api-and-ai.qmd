@@ -2,7 +2,8 @@
 title: "API and AI"
 author: Lars Vilhuber
 description: "AI is infusing a lot of what we do. This will discuss how you can produce research that uses AI and APIs, while still being reproducible."
-date: "2025-10-20"
+date-predoc: "2025-10-20"
+date-econ7850: "not sure"
 categories: [predoc]
 ---
 
