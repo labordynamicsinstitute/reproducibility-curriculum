@@ -13,7 +13,7 @@ website:
         text: Home
       - about.qmd
   sidebar:
-    style: "docked"
+    style: "floating"
     search: true
     contents:
       - text: "Home"
@@ -36,8 +36,7 @@ website:
 format: 
   html:
     scrollable: true
-    margin: 100
     code-overflow: wrap
-    reference-location: document
-    widescreen: false
-    center: true
+    max-width: 1400px
+    grid:
+      sidebar-width: 350px
