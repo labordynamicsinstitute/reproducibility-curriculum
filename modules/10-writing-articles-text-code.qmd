@@ -2,6 +2,7 @@
 title: "Writing articles that combine text and code"
 author: Lars Vilhuber
 description: "To more efficiently combine processing of data and the writing up of results, a few methods exist. Word is not one of them. We discuss the pros and cons of various methods."
+date: ""
 date-econ7850: "2025-11-03"
 date-predoc: "2025-9-08"
 categories: [econ7850, predoc]
