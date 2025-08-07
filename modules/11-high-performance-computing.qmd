@@ -7,6 +7,8 @@ date-econ7850: "2025-11-10"
 date-predoc: "2025-9-07"
 categories: [econ7850, predoc]
 oecon7850: "4"
+image: "images/hps-image.jpg"
+
 ---
 
 - What is HPC
