@@ -7,7 +7,7 @@ date-econ7850: "2025-11-10"
 date-predoc: "2025-09-09"
 categories: [econ7850, predoc]
 oecon7850: "8"
-image: "images/FAIR-data-image.jpg"
+image: "images/FAIR-data-image.jpeg"
 ---
 
 
