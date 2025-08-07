@@ -6,7 +6,7 @@ date: ""
 date-predoc: "2025-10-20"
 date-econ7850: "2025-09-08"
 categories: [predoc]
-image: "images/coder-image.jpg"
+image: "images/api-ai.jpg"
 
 ---
 
