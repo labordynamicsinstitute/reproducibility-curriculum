@@ -4,7 +4,8 @@ author:
  - Levon Barseghyan
  - Francesca Molinari
  - Lars Vilhuber
-date: "2025-09-22"
+date: ""
+date-econ7850: "2025-09-22"
 description: "Writing good referee reports is an important part of the academic work. But providing constructive and effective feedback is not easy. We go through some basic ways to help in the first pass on a referee report."
 categories: [econ7850]
 oecon7850: "3"
