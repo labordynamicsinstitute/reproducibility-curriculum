@@ -1,7 +1,8 @@
 ---
 title: "Day N-1 reproducibility"
 author: Lars Vilhuber
-date: "2025-09-29"
+date-econ7850: "2025-09-29"
+date-predoc: "2025-10-28"
 description: "How do you check your project for reproducibility before you submit it? We discuss various strategies."
 oecon7850: "5"
 categories: [econ7850, predoc]

@@ -2,7 +2,8 @@
 title: "The data lifecycle: preserving raw data"
 author: Lars Vilhuber
 description: "If you create data, or have data that needs to be preserved, what can you do? We start by discussing the distinction between sharing and preserving data, and then look at options that you can embed within your research workflow."
-date: "2025-10-27"
+date-econ7850: "2025-10-27"
+date-predoc: "not sure"
 categories: [econ7850, predoc, qicss2025]
 oecon7850: "9"
 image: "images/2021_06_14_DMPDS.png"

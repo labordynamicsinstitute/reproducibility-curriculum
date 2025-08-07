@@ -2,7 +2,8 @@
 title: "Documenting it all with a README"
 author: Lars Vilhuber
 description: "Once you've covered all the bases, how do you document it all? We discuss how to use the template README to document your project. Much of this will recall elements from previous sessions."
-date: "2025-10-06"
+date-econ7850: "2025-10-06"
+date-predoc: "not sure"
 categories: [predoc, qicss2025]
 image: "images/ai-readme.jpeg"
 ---

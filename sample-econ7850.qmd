@@ -9,12 +9,17 @@ description: "Econ 7850  consists of two parts. In Part 1, we will discuss sever
 essential for successfully completing your research papers as well as applying for grants, refereeing for journals etc. Part 2 are your presentations. In Part 3, after presentations are offered, you will be asked to write a referee report on one of the papers written
 by your peers. You will also be asked to prepare a draft replication package for your own paper."
 listing:
-  contents: 
+  contents:
     - "modules/*.qmd"
     - "extras/*.qmd"
-  type: "table"
+  type: table
   categories: true
-  sort: "oecon7850"
+  fields: [date-econ7850, title, author]
+  field-links: [title]
+  field-display-names:
+    date-predoc: "Date"
+    author: "Authors"
+  sort: "date-econ7850 desc"
   include:
     categories: "econ7850"
 ---
