@@ -6,7 +6,7 @@ date: ""
 date-econ7850: "2025-10-01"
 date-predoc: "2025-10-01"
 categories: [predoc]
-image: "images/secrets-in-code-image.jpg"
+image: "images/confidential-code.jpg"
 ---
 
 - [Reproducibility when data are confidential](https://labordynamicsinstitute.github.io/reproducibility-confidential/presentation/#/title-slide)

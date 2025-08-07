@@ -7,7 +7,7 @@ date-econ7850: "2025-11-03"
 date-predoc: "2025-9-08"
 categories: [econ7850, predoc]
 oecon7850: "6"
-image: "images/jupyter-logo-image.jpg"
+image: "images/jupyter-logo-image.png"
 ---
 
 - Using arbitrary code, LaTex, Git, and Overleaf
