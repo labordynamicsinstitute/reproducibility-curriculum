@@ -4,7 +4,8 @@ author:
  - Levon Barseghyan
  - Francesca Molinari
  - Lars Vilhuber
-date: "2025-10-22"
+date: ""
+date-econ7850: "2025-10-22"
 description: "Grants will likely be an important part of both academic and some non-academic careers. Students in their fourth year at Cornell must have written and submitted an
 external fellowship or grant proposal before their dissertation-year
 fellowship is awarded. This session goes through some of the ways to write successful grants."
