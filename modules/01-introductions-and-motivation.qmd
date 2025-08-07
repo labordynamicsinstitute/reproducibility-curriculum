@@ -7,7 +7,7 @@ date-predoc: "2025-08-25"
 date-econ7850: "2025-08-12"
 categories: [predoc]
 opredoc: 1
-image: "images/intro-replicability.jpg"
+image: "images/intro-replicability.jpeg"
 ---
 
 - [Introductory slides](presentation/presentation.html)

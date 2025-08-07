@@ -11,7 +11,7 @@ external fellowship or grant proposal before their dissertation-year
 fellowship is awarded. This session goes through some of the ways to write successful grants."
 categories: [econ7850]
 oecon7850: "7"
-image: "images/grant-proposal.jpg"
+image: "images/grant-proposal.jpeg"
 
 ---
 

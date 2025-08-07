@@ -7,7 +7,7 @@ date-predoc: 2025-08-26
 description: ""
 oecon7850: "2"
 categories: [econ7850, predoc]
-image: "images/useful-tools.jpg"
+image: "images/useful-tools.jpeg"
 
 ---
 
