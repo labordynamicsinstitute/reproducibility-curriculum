@@ -9,6 +9,8 @@ date-econ7850: "2025-08-22"
 description: "You will be presenting your work to your peers and faculty. We go through some of the ways to make your presentation effective and engaging."
 categories: [econ7850]
 oecon7850: "0"
+image: "images/presentation-image.jpg"
+
 ---
 
 > **Do not forget** to invite at least two faculty members to your presentation
