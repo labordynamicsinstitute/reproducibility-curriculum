@@ -17,7 +17,7 @@ listing:
   fields: [date-econ7850, title, author]
   field-links: [title]
   field-display-names:
-    date-predoc: "Date"
+    date-econ7850: "Date"
     author: "Authors"
   sort: "date-econ7850 desc"
   include:
