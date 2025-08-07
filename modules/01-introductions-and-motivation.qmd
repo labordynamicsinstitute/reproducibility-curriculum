@@ -11,4 +11,4 @@ opredoc: 1
 - [Introductory slides](presentation/presentation.html)
 - Best practicies, importance of reproducibility, and important habits
 - What is a replication package?
-- A very imperfect [example](presentation/01-very-imperfect-example.html)
+- A very imperfect [example](https://larsvilhuber.github.io/summer-school-qicss-2025/presentation/01-very-imperfect-example.html#/title-slide)

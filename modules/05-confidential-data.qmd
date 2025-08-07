@@ -7,5 +7,5 @@ date-predoc: "not sure"
 categories: [predoc]
 ---
 
-- [Reproducibility when data are confidential](https://labordynamicsinstitute.github.io/reproducibility-confidential/#/title-slide)
-- Textbook on reproducibility when data are confidential (in progress)
+- [Reproducibility when data are confidential](https://labordynamicsinstitute.github.io/reproducibility-confidential/presentation/#/title-slide)
+- [Textbook on reproducibility when data are confidential](https://labordynamicsinstitute.github.io/reproducibility-confidential/#/title-slide)
