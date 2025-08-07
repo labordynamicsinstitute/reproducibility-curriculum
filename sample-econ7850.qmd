@@ -12,14 +12,14 @@ listing:
   contents:
     - "modules/*.qmd"
     - "extras/*.qmd"
-  type: table
+  type: "grid"
   categories: true
-  fields: [date-econ7850, title, author]
+  fields: [date-econ7850, image, title, author]
   field-links: [title]
   field-display-names:
     date-econ7850: "Date"
     author: "Authors"
-  sort: "date-econ7850 desc"
+  sort: "date-econ7850 asc"
   include:
     categories: "econ7850"
 ---

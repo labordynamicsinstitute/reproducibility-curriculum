@@ -9,12 +9,12 @@ listing:
   contents:
     - "modules/*.qmd"
     - "extras/*.qmd"
-  type: table
-  fields: [date-predoc, title, author]
+  type: grid
+  fields: [date-predoc, image, title, author]
   field-display-names:
     date-predoc: "Date"
     author: "Authors"
-  sort: date-predoc desc
+  sort: date-predoc asc
   include:
     categories: predoc
 --- 
