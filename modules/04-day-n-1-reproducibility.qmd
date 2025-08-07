@@ -7,6 +7,7 @@ date-predoc: "2025-10-28"
 description: "How do you check your project for reproducibility before you submit it? We discuss various strategies."
 oecon7850: "5"
 categories: [econ7850, predoc]
+image: "images/ai-day1.jpeg"
 ---
 
 - How to check your project for reproducibility
