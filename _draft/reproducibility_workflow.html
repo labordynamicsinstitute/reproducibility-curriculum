@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1 Reproducibility Workflow</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            padding: 40px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            position: relative;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            color: #2c3e50;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .header .subtitle {
+            font-size: 1.2em;
+            color: #7f8c8d;
+            margin-top: 10px;
+        }
+        
+        .timeline {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 40px;
+            position: relative;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 25px;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #3498db, #2ecc71, #f39c12, #e74c3c);
+            border-radius: 2px;
+        }
+        
+        .timeline-item {
+            flex: 1;
+            text-align: center;
+            position: relative;
+            max-width: 200px;
+        }
+        
+        .timeline-circle {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: #3498db;
+            margin: 0 auto 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+            transition: all 0.3s ease;
+        }
+        
+        .timeline-item:nth-child(2) .timeline-circle {
+            background: #2ecc71;
+            box-shadow: 0 4px 12px rgba(46, 204, 113, 0.3);
+        }
+        
+        .timeline-item:nth-child(3) .timeline-circle {
+            background: #f39c12;
+            box-shadow: 0 4px 12px rgba(243, 156, 18, 0.3);
+        }
+        
+        .timeline-item:nth-child(4) .timeline-circle {
+            background: #e74c3c;
+            box-shadow: 0 4px 12px rgba(231, 76, 60, 0.3);
+        }
+        
+        .timeline-circle:hover {
+            transform: scale(1.1);
+        }
+        
+        .timeline-label {
+            font-weight: bold;
+            color: #2c3e50;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        
+        .timeline-desc {
+            font-size: 12px;
+            color: #7f8c8d;
+        }
+        
+        .workflow-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-top: 40px;
+        }
+        
+        .workflow-section {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .workflow-section:hover {
+            transform: translateY(-5px);
+        }
+        
+        .section-title {
+            font-size: 1.4em;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .icon {
+            width: 30px;
+            height: 30px;
+            background: linear-gradient(45deg, #3498db, #2ecc71);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .step-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .step-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 15px;
+            padding: 15px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+        }
+        
+        .step-item:hover {
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transform: translateX(5px);
+        }
+        
+        .step-number {
+            width: 25px;
+            height: 25px;
+            background: linear-gradient(45deg, #3498db, #2ecc71);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 12px;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+        
+        .step-content {
+            flex: 1;
+        }
+        
+        .step-title {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        
+        .step-desc {
+            font-size: 14px;
+            color: #7f8c8d;
+            line-height: 1.4;
+        }
+        
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .tool-item {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+        }
+        
+        .tool-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+        }
+        
+        .tool-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            border-radius: 8px;
+            margin: 0 auto 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .tool-name {
+            font-size: 12px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .central-diagram {
+            grid-column: 1 / -1;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        
+        .diagram-title {
+            font-size: 1.8em;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .flow-diagram {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .flow-box {
+            background: rgba(255,255,255,0.2);
+            padding: 20px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.3);
+            transition: all 0.3s ease;
+        }
+        
+        .flow-box:hover {
+            background: rgba(255,255,255,0.3);
+            transform: scale(1.05);
+        }
+        
+        .flow-arrow {
+            font-size: 24px;
+            color: rgba(255,255,255,0.8);
+        }
+        
+        @media (max-width: 768px) {
+            .workflow-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .timeline {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .timeline::before {
+                display: none;
+            }
+            
+            .timeline-item {
+                margin-bottom: 20px;
+            }
+            
+            .flow-diagram {
+                flex-direction: column;
+            }
+            
+            .flow-arrow {
+                transform: rotate(90deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Day 1 Reproducibility Workflow</h1>
+            <div class="subtitle">Establishing reproducible research practices from project inception</div>
+        </div>
+        
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-circle">1</div>
+                <div class="timeline-label">Project Setup</div>
+                <div class="timeline-desc">Initialize structure</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-circle">2</div>
+                <div class="timeline-label">Version Control</div>
+                <div class="timeline-desc">Git repository</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-circle">3</div>
+                <div class="timeline-label">Environment</div>
+                <div class="timeline-desc">Dependencies</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-circle">4</div>
+                <div class="timeline-label">Documentation</div>
+                <div class="timeline-desc">README & guides</div>
+            </div>
+        </div>
+        
+        <div class="workflow-grid">
+            <div class="workflow-section">
+                <div class="section-title">
+                    <div class="icon">🔧</div>
+                    Version Control Setup
+                </div>
+                <ul class="step-list">
+                    <li class="step-item">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <div class="step-title">Initialize Git Repository</div>
+                            <div class="step-desc">Create local repository with proper .gitignore</div>
+                        </div>
+                    </li>
+                    <li class="step-item">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <div class="step-title">Remote Repository</div>
+                            <div class="step-desc">Set up GitHub/GitLab with clear naming</div>
+                        </div>
+                    </li>
+                    <li class="step-item">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <div class="step-title">Branching Strategy</div>
+                            <div class="step-desc">Define workflow (main, dev, feature branches)</div>
+                        </div>
+                    </li>
+                    <li class="step-item">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <div class="step-title">Commit Standards</div>
+                            <div class="step-desc">Establish clear commit message conventions</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="workflow-section">
+                <div class="section-title">
+                    <div class="icon">📋</div>
+                    Research Planning
+                </div>
+                <ul class="step-list">
+                    <li class="step-item">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <div class="step-title">Define Objectives</div>
+                            <div class="step-desc">Clear research questions and hypotheses</div>
+                        </div>
+                    </li>
+                    <li class="step-item">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <div class="step-title">Data Management Plan</div>
+                            <div class="step-desc">Storage, backup, and sharing protocols</div>
+                        </div>
+                    </li>
+                    <li class="step-item">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <div class="step-title">Methodology Framework</div>
+                            <div class="step-desc">Reproducible analysis pipeline design</div>
+                        </div>
+                    </li>
+                    <li class="step-item">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <div class="step-title">Collaboration Setup</div>
+                            <div class="step-desc">Team access and communication channels</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="workflow-section">
+                <div class="section-title">
+                    <div class="icon">🔬</div>
+                    Environment Management
+                </div>
+                <ul class="step-list">
+                    <li class="step-item">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <div class="step-title">Dependency Tracking</div>
+                            <div class="step-desc">requirements.txt, package.json, or environment.yml</div>
+                        </div>
+                    </li>
+                    <li class="step-item">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <div class="step-title">Virtual Environments</div>
+                            <div class="step-desc">Isolated environments (conda, venv, Docker)</div>
+                        </div>
+                    </li>
+                    <li class="step-item">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <div class="step-title">Version Pinning</div>
+                            <div class="step-desc">Lock specific package versions for stability</div>
+                        </div>
+                    </li>
+                    <li class="step-item">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <div class="step-title">Container Setup</div>
+                            <div class="step-desc">Docker/Singularity for full reproducibility</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="workflow-section">
+                <div class="section-title">
+                    <div class="icon">📚</div>
+                    Documentation Standards
+                </div>
+                <ul class="step-list">
+                    <li class="step-item">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <div class="step-title">Comprehensive README</div>
+                            <div class="step-desc">Project overview, setup, and usage instructions</div>
+                        </div>
+                    </li>
+                    <li class="step-item">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <div class="step-title">Code Documentation</div>
+                            <div class="step-desc">Inline comments and docstrings</div>
+                        </div>
+                    </li>
+                    <li class="step-item">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <div class="step-title">Analysis Notebooks</div>
+                            <div class="step-desc">Step-by-step analysis with explanations</div>
+                        </div>
+                    </li>
+                    <li class="step-item">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <div class="step-title">Metadata & Logs</div>
+                            <div class="step-desc">Experiment tracking and data provenance</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="central-diagram">
+            <div class="diagram-title">Reproducible Research Lifecycle</div>
+            <div class="flow-diagram">
+                <div class="flow-box">
+                    <strong>Plan</strong><br>
+                    Define scope & methods
+                </div>
+                <div class="flow-arrow">→</div>
+                <div class="flow-box">
+                    <strong>Setup</strong><br>
+                    Version control & environment
+                </div>
+                <div class="flow-arrow">→</div>
+                <div class="flow-box">
+                    <strong>Execute</strong><br>
+                    Document as you go
+                </div>
+                <div class="flow-arrow">→</div>
+                <div class="flow-box">
+                    <strong>Share</strong><br>
+                    Open & accessible
+                </div>
+            </div>
+        </div>
+        
+        <div class="workflow-section" style="grid-column: 1 / -1; margin-top: 20px;">
+            <div class="section-title">
+                <div class="icon">🛠️</div>
+                Essential Tools for Day 1 Reproducibility
+            </div>
+            <div class="tools-grid">
+                <div class="tool-item">
+                    <div class="tool-icon">Git</div>
+                    <div class="tool-name">Version Control</div>
+                </div>
+                <div class="tool-item">
+                    <div class="tool-icon">🐳</div>
+                    <div class="tool-name">Docker</div>
+                </div>
+                <div class="tool-item">
+                    <div class="tool-icon">🐍</div>
+                    <div class="tool-name">Conda/Pip</div>
+                </div>
+                <div class="tool-item">
+                    <div class="tool-icon">📓</div>
+                    <div class="tool-name">Jupyter</div>
+                </div>
+                <div class="tool-item">
+                    <div class="tool-icon">📝</div>
+                    <div class="tool-name">Markdown</div>
+                </div>
+                <div class="tool-item">
+                    <div class="tool-icon">🔗</div>
+                    <div class="tool-name">GitHub/GitLab</div>
+                </div>
+                <div class="tool-item">
+                    <div class="tool-icon">🏗️</div>
+                    <div class="tool-name">Make/CI</div>
+                </div>
+                <div class="tool-item">
+                    <div class="tool-icon">📊</div>
+                    <div class="tool-name">DVC</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
