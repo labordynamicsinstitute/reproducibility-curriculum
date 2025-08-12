@@ -4,7 +4,7 @@ author: Lars Vilhuber
 description: "You run your code on your laptop, and it crashes. Use high-performance computing! We disuss when to use it, what the benefits and costs are, and where to use it. "
 date: ""
 date-econ7850: "2025-11-10"
-date-predoc: "2025-9-07"
+date-predoc: "2025-9-08"
 categories: [econ7850, predoc]
 oecon7850: "4"
 image: "images/hpc.jpeg"

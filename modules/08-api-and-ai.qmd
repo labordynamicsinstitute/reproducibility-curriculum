@@ -4,7 +4,7 @@ author: Lars Vilhuber
 description: "AI is infusing a lot of what we do. This will discuss how you can produce research that uses AI and APIs, while still being reproducible."
 date: ""
 date-predoc: "2025-10-20"
-date-econ7850: "2025-09-08"
+date-econ7850: "2025-09-09"
 categories: [predoc]
 image: "images/api-ai.jpeg"
 

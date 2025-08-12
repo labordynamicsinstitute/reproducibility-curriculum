@@ -4,7 +4,7 @@ author: Lars Vilhuber
 description: "What if you have data you are not allowed to publish? How do you work with it, and how do you share the most of your work? We discuss general and specific methods and strategies."
 date: ""
 date-econ7850: "2025-10-01"
-date-predoc: "2025-10-01"
+date-predoc: "2025-09-09"
 categories: [predoc]
 image: "images/confidential-code.jpeg"
 ---
