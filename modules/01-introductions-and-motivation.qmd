@@ -11,6 +11,54 @@ image: "images/intro-replicability.jpeg"
 ---
 
 - [Introductory slides](presentation/presentation.html)
-- Best practicies, importance of reproducibility, and important habits
+
+## Topics 
+
+- Why worry about reproducibility?
+    - [Implementing Increased Transparency and Reproducibility in Economics](https://github.com/labordynamicsinstitute/replicability-presentation-2020) ([🎥 Presentation video](https://www.youtube.com/watch?v=pj-y3dLDOEA))
+- Best practices, importance of reproducibility, and important habits
 - What is a replication package?
 - A very imperfect [example](https://larsvilhuber.github.io/summer-school-qicss-2025/presentation/01-very-imperfect-example.html#/title-slide)
+
+## Some References to Illustrate Certain Problems
+
+### Making up data
+
+For kicks:
+
+- <https://news.mit.edu/2015/how-three-mit-students-fooled-scientific-journals-0414>
+
+Seriously:
+
+- <https://datacolada.org/118>
+- <https://datacolada.org/98>
+
+2025:
+
+- <https://economics.mit.edu/news/assuring-accurate-research-record>
+
+Retracted:
+
+- <https://www.science.org/doi/10.1126/science.aac6638>
+
+and its data:
+
+- <https://www.openicpsr.org/openicpsr/project/100037/version/V8/view>
+
+On a positive note: *Pre-registration*
+
+- <https://en.wikipedia.org/wiki/Preregistration_(science)#cite_note-64>
+
+But only if you add a PAP:
+
+- <https://www.journals.uchicago.edu/doi/10.1086/730455>
+
+But a PAP is really just an early reproducible template for your paper!
+
+Ethics:
+- <https://www.advarra.com/blog/beginners-guide-to-institutional-review-boards/>
+
+Data permanence, or absence thereof:
+
+- <https://www.datarescueproject.org/>
+- <https://www.datarescueproject.org/usaid-dhs-report/>
