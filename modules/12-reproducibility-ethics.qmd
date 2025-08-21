@@ -3,7 +3,7 @@ title: "Reproducibility, transparency, and data ethics: How and when to share da
 author: Lars Vilhuber
 description: "How do you create transparency and credibility when you cannot share the data you use? We discuss strategies both for data collection, data use, and data sharing. This is relevant if you collect your own data, or if you use confidential data."
 date: ""
-date-econ7850: "2025-11-10"
+date-econ7850: "2025-10-20"
 date-predoc: "2025-09-09"
 categories: [econ7850, predoc]
 oecon7850: "8"

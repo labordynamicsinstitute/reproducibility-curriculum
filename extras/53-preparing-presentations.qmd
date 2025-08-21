@@ -5,7 +5,7 @@ author:
  - Francesca Molinari
  - Lars Vilhuber
 date:  "2025-08-22"
-date-econ7850: "2025-08-22"
+date-econ7850: "2025-08-25"
 description: "You will be presenting your work to your peers and faculty. We go through some of the ways to make your presentation effective and engaging."
 categories: [econ7850]
 oecon7850: "0"
