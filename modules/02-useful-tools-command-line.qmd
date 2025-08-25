@@ -11,10 +11,13 @@ image: "images/useful-tools.jpeg"
 
 ---
 
-- Bash
-- Bash scripting
-- Git versioning (or any versioning)
-- [Shell for novices](https://swcarpentry.github.io/shell-novice/)
-- [Git for novices](https://swcarpentry.github.io/git-novice/)
-- [Incorporating Stata into Rmarkdown](https://bookdown.org/yihui/rmarkdown-cookbook/eng-stata.html) and why understanding the command line is useful.
-- [Setting up Python for Stata](https://www.stata.com/manuals/ppystataintegration.pdf) and why understanding the command line is useful.
+- Basics
+    - Bash
+    - Bash scripting
+    - Git versioning (or any versioning)
+    - See [quick walkthrough](https://labordynamicsinstitute.github.io/replicability-training-presentation/part4.html) 
+- Further reading
+    - [Shell for novices](https://swcarpentry.github.io/shell-novice/)
+    - [Git for novices](https://swcarpentry.github.io/git-novice/)
+    - [Incorporating Stata into Rmarkdown](https://bookdown.org/yihui/rmarkdown-cookbook/eng-stata.html) and why understanding the command line is useful.
+    - [Setting up Python for Stata](https://www.stata.com/manuals/ppystataintegration.pdf) and why understanding the command line is useful.
