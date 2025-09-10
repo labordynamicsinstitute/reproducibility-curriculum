@@ -3,7 +3,7 @@ project:
   render:
     - "setup.qmd"
     - "*.qmd"
-    - "!presentation/"
+    - "presentation/*.qmd"
 
 website:
   title: "Reproducibility Curriculum"

@@ -1,0 +1,259 @@
+---
+title: "Command Line/Git & Version Control/Markdown/"
+author: 
+  - "Lars Vilhuber"
+  - "Linda Wang"
+date: "April 2023"
+---
+
+
+# Basic Toolkit
+
+- Command line
+- Git
+- Markdown
+
+# Command Line/Git & Version Control/Markdown/
+
+## Command Line
+
+This slide is based on the [Carpentries tutorial on the Unix shell](https://swcarpentry.github.io/shell-novice/01-intro/index.html) (which you might want to do on your own).
+
+- What is a command line and why use it?
+  - Graphical user interfaces are the most common way to give instruction to our computers. They are not good when we need to scale things up, do repetitive tasks, or have people reproduce instructions across systems.
+  - Command-line interfaces are another way to pass instructions to computers. 
+  - "Shell" instructions can be scripted, allowing repetitive tasks to be done automatically and fast.
+
+## Commands in the Unix Shell
+
+  - list files
+
+```
+$ ls
+```
+- moving around 
+  - where are we (`pwd` = present working directory)
+
+```
+$ pwd
+```
+
+## Commands in the Unix Shell
+
+- Create directories
+
+```
+$ mkdir somepath
+```
+## Commands in the Unix Shell
+
+ - change to where we want to be 
+
+```
+$ cd somepath 
+$ pwd
+$ cd ..
+$ cd ./somepath
+$ pwd
+```
+
+## Commands in the Unix Shell
+
+- Move or rename files 
+
+```
+$ mv somepath otherpath
+```
+- Copy (`cp`) files
+
+```
+$ cp test.do otherpath/
+```
+
+## Commands in the Unix Shell
+
+- Remove (`rm`) files
+
+```
+$ rm filename.do
+```
+
+## Why is this useful?
+
+### Integration of other software
+
+```
+
+if "`c(username)'"== "abc" {
+    global root   "/Users/abc/Dropbox/Project"
+	global R_dir "C:\Program Files\R\R-4.4.3\bin\x64" // needed to run data construction!
+}
+
+global data_work "$rootdir"
+global R_dir "/usr/bin/R"
+
+```
+
+## Git 
+
+Version Control system. Track the progress in a project: what changes?, who made changes? [Again see the Carpentries tutorial](https://swcarpentry.github.io/git-novice/01-basics/index.html)
+
+## Git and the command line 
+
+- Clone a repository
+
+```
+git clone https://github.com/labordynamicsinstitute/prettygood-example
+```
+
+(don't forget to change directory)
+
+- Check where my local repository is vs. remote repository
+
+```
+git status
+```
+
+## Git and the command line 
+
+- Get the current version of an existing repository
+
+```
+git pull
+```
+
+## Git and the command line 
+
+- after making changes, how to reflect them in the external repository.
+
+```
+git add otherpath/fileimodified.do
+git add otherpath/fileicreated.do
+git commit -m "you write here a commit message"
+git push
+```
+
+## Markdown 
+
+We use Markdown to write reports. [why?](https://carto.com/blog/why-we-use-markdown/)  
+
+- It's easy, fast, multi-platform, and it works great.
+
+## Basic Syntax (https://www.markdownguide.org/basic-syntax/)
+
+### Headings
+
+```
+# Heading level 1
+## Heading level 2
+### Heading level 3
+#### Heading level 4
+##### Heading level 5
+```
+
+---
+
+### Lists
+
+#### Ordered lists
+
+```
+1. First item
+2. Second item
+3. Third item
+    1. Indented item
+    2. Indented item
+4. Fourth item 
+```
+
+---
+
+### Lists
+
+#### Unordered lists
+
+```
+- First item
+- Second item
+- Third item
+    - Indented item
+    - Indented item
+- Fourth item 
+
+```
+
+---
+
+### Blockquotes and Code Blocks
+- Blockquotes
+
+> This is a block quote, and it is created like this
+
+```
+> This is a block quote, and it is created like this
+
+```
+
+---
+
+### Blockquotes and Code Blocks
+
+- Code Block
+
+Code embedded in the document:
+
+```
+ "```"
+ gen var1= var2/var3
+ 
+ "```" 
+
+```
+
+---
+
+### Spacing
+
+- Be sure to leave an empty line after a header.
+
+```
+### Bad example
+#### U.S.Census Population Division
+- Retrieved from https://www.census.gov/geographies/reference-files/2017/demo/popest/2017-fips.html
+```
+
+---
+
+### Spacing
+
+```
+### Good example
+
+#### U.S.Census Population Division
+
+- Retrieved from https://www.census.gov/geographies/reference-files/2017/demo/popest/2017-fips.html
+```
+
+---
+
+### Spacing
+
+- Leave an empty line if you want to start a new paragraph.
+```
+Bad example:
+Thank you for your replication archive.Blablabla.
+**Conditional on making the requested changes to the manuscript and the openICPSR deposit prior to publication, the replication package is accepted.**
+```
+```
+Good example:
+
+Thank you for your replication archive. Blablabla.
+
+**Conditional on making the requested changes to the manuscript and the openICPSR deposit prior to publication, the replication package is accepted.**
+
+```
+
+
+
+
+
