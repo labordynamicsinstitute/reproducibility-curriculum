@@ -1,5 +1,5 @@
 ---
-title: "Day N-1 reproducibility"
+title: "Day T-1 reproducibility"
 author: Lars Vilhuber
 date: ""
 date-econ7850: "2025-10-01"
@@ -12,5 +12,6 @@ image: "images/ai-day1.jpeg"
 
 - How to check your project for reproducibility
 - Computational empathy
-- [Checking reproducibility on day T](https://larsvilhuber.github.io/self-checking-reproducibility/presentation/)
+- [Checking reproducibility on day T-1](https://larsvilhuber.github.io/self-checking-reproducibility/presentation/)
 - [Link to online textbook](https://larsvilhuber.github.io/self-checking-reproducibility/)
+- [DRAFT checklist for last-minute reproducibility checks, including with Docker](https://aeadataeditor.github.io/aea-de-guidance/preparing-replication-package.html)
