@@ -11,6 +11,6 @@ image: "images/FAIR-data-image.jpeg"
 ---
 
 
-- [Reproducibility when data are confidential](https://labordynamicsinstitute.github.io/reproducibility-confidential/#/title-slide)
-- Textbook on reproducibility when data are confidential (in progress)
+- [Reproducibility when data are confidential](https://labordynamicsinstitute.github.io/reproducibility-confidential/presentation/#/title-slide)
+- [Chapter on reproducibility when data are confidential](https://labordynamicsinstitute.github.io/reproducibility-confidential/) (in progress)
 
