@@ -13,4 +13,6 @@ image: "images/FAIR-data-image.jpeg"
 
 - [Reproducibility when data are confidential](https://labordynamicsinstitute.github.io/reproducibility-confidential/presentation/#/title-slide)
 - [Chapter on reproducibility when data are confidential](https://labordynamicsinstitute.github.io/reproducibility-confidential/) (in progress)
+- [Discussion on data ethics (video)](https://labordynamicsinstitute.github.io/crress/#session-2)
+  - Meyer, M. N. (2018). [Practical tips for ethical data sharing](http://journals.sagepub.com/doi/pdf/10.1177/2515245917747656). Advances in Methods and Practices in Psychological Science, 1(1), 131-144. <https://doi.org/10.1177/2515245917747656>
 

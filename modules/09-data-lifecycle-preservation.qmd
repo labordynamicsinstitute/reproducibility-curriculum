@@ -12,11 +12,12 @@ image: "images/2021_06_14_DMPDS.png"
 
 - Differences between sharing, publishing, and preserving
 - [Data preservation and publication](https://larsvilhuber.github.io/summer-school-qicss-2025/presentation/day2.html#/what-is-preservation)
-- Increased transparency and reproducibility in economics [video:](https://www.youtube.com/watch?v=pj-y3dLDOEA)
-- [Reproducibility and ethics](https://labordynamicsinstitute.github.io/crress/#session-2)
 - FAIR data principles
-- [Data sharing and archiving for reproducibility](https://labordynamicsinstitute.github.io/tutorial-data-sharing-archiving-2021/#/)
-- [Data sharing and archiving for reproducibility 2](https://labordynamicsinstitute.github.io/tutorial-data-sharing-archiving-2021/index2.html#/)
+- [A tutorial on early preservation](https://labordynamicsinstitute.github.io/tutorial-preserving-survey/)
 - Options for preservation
   - Getting started in [Zenodo](https://sandbox.zenodo.org/)
   - [Dataverse at Harvard](https://dataverse.harvard.edu), [Country specific dataverses: 🇨🇦](https://borealisdata.ca/), [🇳🇱](https://dataverse.nl/)
+
+## Further reading/viewing
+
+- Increased transparency and reproducibility in economics [video:](https://www.youtube.com/watch?v=pj-y3dLDOEA)
