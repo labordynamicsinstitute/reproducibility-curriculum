@@ -1,6 +1,8 @@
 ---
 title: "Creating and Analyzing Surveys with Strong Provenance Promises"
-author: Lars Vilhuber
+author: 
+ - Lars Vilhuber
+ - Laurel Krovetz
 description: "We demonstrate how to preserve raw survey data, while maintaining strong provenance promises. This starts with planning, but also automation."
 date: ""
 date-econ7850: "2025-10-20"
