@@ -1,5 +1,5 @@
 ---
-title: "Working with confidential data, when to share data and when no to"
+title: "Creating and Analyzing Surveys with Strong Provenance Promises"
 author: Lars Vilhuber
 description: "We demonstrate how to preserve raw survey data, while maintaining strong provenance promises. This starts with planning, but also automation."
 date: ""
