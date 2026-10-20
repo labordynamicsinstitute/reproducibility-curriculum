@@ -1,7 +1,7 @@
 ---
 title: "Reproducibility, transparency, and data ethics: How and when to share data, and when not to"
 author: Lars Vilhuber
-description: "How do you create transparency and credibility when you cannot share the data you use? We discuss strategies both for data collection, data use, and data sharing. This is relevant if you collect your own data, or if you use confidential data."
+description: "How do you create transparency and credibility when you cannot share the data you use? What kind of data can you share? We discuss strategies for data collection, data use, and data sharing. This is relevant if you collect your own data, or if you use confidential data."
 date: ""
 date-econ7850: "2025-10-20"
 date-predoc: "2025-09-09"
@@ -11,8 +11,41 @@ image: "images/FAIR-data-image.jpeg"
 ---
 
 
-- [Reproducibility when data are confidential](https://labordynamicsinstitute.github.io/reproducibility-confidential/presentation/#/title-slide)
-- [Chapter on reproducibility when data are confidential](https://labordynamicsinstitute.github.io/reproducibility-confidential/) (in progress)
+## When can you share data
+
+- How do you know you can share data?
+
+## How do you know you cannot share data?
+
+- Licenses and Data use agreements: Example 1 ([PSID](https://simba.isr.umich.edu/U/CondUse.aspx)), Example 2 (Demographic and Health Surveys, [DHS](https://dhsprogram.com/data/dataset_admin/login_main.cfm)), 
+- Institutional review board (IRB) restrictions
+- Confidentiality agreements
+- Legal restrictions (🇪🇺 GDPR, [🇧🇷 LGPD](https://www.dlapiperdataprotection.com/?t=law&c=BR))
+
 - [Discussion on data ethics (video)](https://labordynamicsinstitute.github.io/crress/#session-2)
   - Meyer, M. N. (2018). [Practical tips for ethical data sharing](http://journals.sagepub.com/doi/pdf/10.1177/2515245917747656). Advances in Methods and Practices in Psychological Science, 1(1), 131-144. <https://doi.org/10.1177/2515245917747656>
 
+## How do you know you have data you cannot share?
+
+- Best practices for separating shareable and non-shareable data: [J-PAL guide for de-identification of data](https://www.povertyactionlab.org/sites/default/files/research-resources/J-PAL-guide-to-deidentifying-data.pdf) starts on Day 1
+- Did you properly separate shareable and non-shareable data? Verify on Day T-1: [PII-checker](https://github.com/valentadavid/pii-checker)
+  - How can you decide what data to publish without publishing the data? Private LLMs...
+
+## Methods to make non-shareable data shareable
+
+- Data de-identification 
+- True data anonymization: k-anonymity [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/labordynamicsinstitute/reproducibility-curriculum/blob/main/extras/k_anonymity_tutorial.ipynb), differential privacy (🎥 [Video](https://youtu.be/pT19VwBAqKA?t=350), [Garfinkel, Simson, J. M. Abowd, and Christian Martindale. 2018. “Understanding Database Reconstruction Attacks on Public Data.” Acmqueue 16 (5).](https://queue.acm.org/detail.cfm?id=3295691), also [Webb, Kaitlyn R., Soumya Mukherjee, Aratrika Mustafi, Aleksandra Slavković, and **Lars Vilhuber**. 2026. Assessing Utility of Differential Privacy for RCTs. Arxiv:2309.14581v2.](https://doi.org/10.48550/ARXIV.2309.14581).
+
+- Aggregation and summarization
+- Synthetic data generation
+
+## Methods to publish data securely with controls
+
+- Data repositories (e.g., [ICPSR](https://www.icpsr.umich.edu/web/pages/), [Dataverse](https://dataverse.org/)) have mechanisms
+- Journal policies require "5 years retention" - how do you ensure that?
+- Flip: You are the licensor!
+
+  
+## See also:
+
+- Preparing code when data are not shareable: [Reproducibility when data are confidential](https://labordynamicsinstitute.github.io/reproducibility-confidential/)

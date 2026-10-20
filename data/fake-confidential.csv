@@ -1,0 +1,5 @@
+Name (Identifier),Age (QI),Zip Code (QI),Diagnosis (Sensitive)
+Alice,22,14850,Heart Disease
+Bob,27,14853,Flu
+Charlie,29,14850,Cancer
+David,25,14853,Bronchitis
