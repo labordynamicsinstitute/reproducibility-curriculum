@@ -30,6 +30,14 @@ image: "images/FAIR-data-image.jpeg"
 - Best practices for separating shareable and non-shareable data: [J-PAL guide for de-identification of data](https://www.povertyactionlab.org/sites/default/files/research-resources/J-PAL-guide-to-deidentifying-data.pdf) starts on Day 1
 - Did you properly separate shareable and non-shareable data? Verify on Day T-1: [PII-checker](https://github.com/valentadavid/pii-checker) (see [Brodeur, Abel, and David Valenta. 2026. On the Prevalence of Personally Identifiable Information (PII) in the Social Sciences. Working Paper No. 320. I4R Discussion Paper Series.](https://www.econstor.eu/handle/10419/343373))
   - How can you decide what data to publish without publishing the data? Private LLMs...
+  - Recent message from an author, after having been provided with the LLM-produced PII check:
+
+> We have removed the PII and resubmitted the deposit for your review. Here's a brief overview of the changes we made for reference:
+>
+> -    Removed PII: We removed the "name" field, subject IDs, and all location data (latitude/longitude).
+> -    Deleted unused files: We removed files that were not used in the analysis and would have required PII to merge with the rest of the data.
+
+What could they have done earlier?
 
 ## Methods to make non-shareable data shareable
 
