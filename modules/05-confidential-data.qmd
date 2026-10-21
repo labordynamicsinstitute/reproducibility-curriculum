@@ -1,7 +1,7 @@
 ---
-title: "Working with confidential data, when to share data and when no to"
+title: "Working with confidential data: How to create code that preserves privacy"
 author: Lars Vilhuber
-description: "What if you have data you are not allowed to publish? How do you work with it, and how do you share the most of your work? We discuss general and specific methods and strategies."
+description: "What if you have data you are not allowed to publish? How do you work with it, and how do you share the most of your coding work? We discuss general and specific methods and strategies."
 date: ""
 date-econ7850: "2025-10-20"
 date-predoc: "2025-09-09"
@@ -11,3 +11,6 @@ image: "images/confidential-code.jpeg"
 
 - [Reproducibility when data are confidential](https://labordynamicsinstitute.github.io/reproducibility-confidential/presentation/#/title-slide)
 - [Textbook on reproducibility when data are confidential](https://labordynamicsinstitute.github.io/reproducibility-confidential/#/title-slide)
+
+**See also**: 
+- [Reproducibility, transparency, and data ethics](https://labordynamicsinstitute.github.io/reproducibility-ethics/)
